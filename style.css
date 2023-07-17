@@ -18,7 +18,7 @@ body{
 
 #container{
     position: relative;
-    background-image: url(/bg.png);
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/979/214/desktop-wallpaper-credit-card-backgrounds-designs-posted-by-sarah-cunningham-card-design.jpg');
     background-size: cover;
     padding: 25px;
     border-radius: 28px;
@@ -37,13 +37,21 @@ h5{
     font-weight: 400;
 }
 
-.logo img{
-    width: 48px;
-    margin-right: 10px;
+#card-text{
+    margin-top: 8px;
 }
 
-header .chip{
-    width: 60px;
+.logo img{
+    width: 58px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#chip{
+    max-width: 1000px;
+    width: 100vw;
+    height: 70px;
+    margin-left: 130px;
 }
 
 h6{
@@ -86,3 +94,4 @@ h5.name{
     margin-top: 50px;
     align-items: flex-end;
 }
+
